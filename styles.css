@@ -1,0 +1,54 @@
+:root {
+  --primary-color: rgb(152, 227, 127);
+  --secondary-color: rgb(243, 233, 91);
+  --terciary-color: rgb(76, 90, 210);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  padding: 20px;
+  border: 4px solid var(--terciary-color);
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  border: 4px solid var(--terciary-color);
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: var(--terciary-color);
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  background-color: var(--secondary-color);
+  border: 4px solid var(--terciary-color);
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+  background-color: var(--secondary-color);
+  width: 100%;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 24px;
+  border: 4px solid var(--terciary-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
